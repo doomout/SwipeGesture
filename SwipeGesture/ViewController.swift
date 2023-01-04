@@ -1,6 +1,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    let numOfTouchs = 2 //터치 갯수 2로 설정
+    
     @IBOutlet var imgViewUp: UIImageView!
     @IBOutlet var imgViewRight: UIImageView!
     @IBOutlet var imgViewLeft: UIImageView!
@@ -34,21 +36,25 @@ class ViewController: UIViewController {
         //위쪽 방향의 스와이프 제스처 등록
         let swipUp = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.respondToSwipeGesture(_:)))
         swipUp.direction = UISwipeGestureRecognizer.Direction.up
+        swipUp.numberOfTouchesRequired = numOfTouchs //멀티 터치 스와이프 제스처를 등록
         self.view.addGestureRecognizer(swipUp)
         
         //아래쪽 방향의 스와이프 제스처 등록
         let swipDown = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.respondToSwipeGesture(_:)))
         swipDown.direction = UISwipeGestureRecognizer.Direction.down
+        swipDown.numberOfTouchesRequired = numOfTouchs //멀티 터치 스와이프 제스처를 등록
         self.view.addGestureRecognizer(swipDown)
 
         //왼쪽 방향의 스와이프 제스처 등록
         let swipLeft = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.respondToSwipeGesture(_:)))
         swipLeft.direction = UISwipeGestureRecognizer.Direction.left
+        swipLeft.numberOfTouchesRequired = numOfTouchs //멀티 터치 스와이프 제스처를 등록
         self.view.addGestureRecognizer(swipLeft)
 
         //오른쪽 방향의 스와이프 제스처 등록
         let swipRight = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.respondToSwipeGesture(_:)))
         swipRight.direction = UISwipeGestureRecognizer.Direction.right
+        swipRight.numberOfTouchesRequired = numOfTouchs //멀티 터치 스와이프 제스처를 등록
         self.view.addGestureRecognizer(swipRight)
 
     }
