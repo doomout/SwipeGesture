@@ -13,6 +13,17 @@
 		AD4CAC572965E95E00653E35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4CAC552965E95E00653E35 /* Main.storyboard */; };
 		AD4CAC592965E95E00653E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4CAC582965E95E00653E35 /* Assets.xcassets */; };
 		AD4CAC5C2965E95E00653E35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4CAC5A2965E95E00653E35 /* LaunchScreen.storyboard */; };
+		AD4CAC6E2965EA8100653E35 /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD4CAC642965EA8000653E35 /* 9.jpeg */; };
+		AD4CAC6F2965EA8100653E35 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD4CAC652965EA8000653E35 /* 3.jpeg */; };
+		AD4CAC702965EA8100653E35 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD4CAC662965EA8000653E35 /* 2.jpeg */; };
+		AD4CAC712965EA8100653E35 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD4CAC672965EA8000653E35 /* 5.jpg */; };
+		AD4CAC722965EA8100653E35 /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD4CAC682965EA8000653E35 /* 10.jpeg */; };
+		AD4CAC732965EA8100653E35 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD4CAC692965EA8000653E35 /* 1.jpeg */; };
+		AD4CAC742965EA8100653E35 /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD4CAC6A2965EA8100653E35 /* 4.jpeg */; };
+		AD4CAC752965EA8100653E35 /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD4CAC6B2965EA8100653E35 /* 6.jpeg */; };
+		AD4CAC762965EA8100653E35 /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD4CAC6C2965EA8100653E35 /* 7.jpeg */; };
+		AD4CAC772965EA8100653E35 /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD4CAC6D2965EA8100653E35 /* 8.jpeg */; };
+		AD4CAC792965F17700653E35 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD4CAC782965F17700653E35 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		AD4CAC582965E95E00653E35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD4CAC5B2965E95E00653E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD4CAC5D2965E95E00653E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4CAC642965EA8000653E35 /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
+		AD4CAC652965EA8000653E35 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		AD4CAC662965EA8000653E35 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		AD4CAC672965EA8000653E35 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		AD4CAC682965EA8000653E35 /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+		AD4CAC692965EA8000653E35 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		AD4CAC6A2965EA8100653E35 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		AD4CAC6B2965EA8100653E35 /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		AD4CAC6C2965EA8100653E35 /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		AD4CAC6D2965EA8100653E35 /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
+		AD4CAC782965F17700653E35 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +62,7 @@
 		AD4CAC432965E95E00653E35 = {
 			isa = PBXGroup;
 			children = (
+				AD4CAC782965F17700653E35 /* README.md */,
 				AD4CAC4E2965E95E00653E35 /* SwipeGesture */,
 				AD4CAC4D2965E95E00653E35 /* Products */,
 			);
@@ -56,6 +79,7 @@
 		AD4CAC4E2965E95E00653E35 /* SwipeGesture */ = {
 			isa = PBXGroup;
 			children = (
+				AD4CAC632965E9AE00653E35 /* images */,
 				AD4CAC4F2965E95E00653E35 /* AppDelegate.swift */,
 				AD4CAC512965E95E00653E35 /* SceneDelegate.swift */,
 				AD4CAC532965E95E00653E35 /* ViewController.swift */,
@@ -65,6 +89,23 @@
 				AD4CAC5D2965E95E00653E35 /* Info.plist */,
 			);
 			path = SwipeGesture;
+			sourceTree = "<group>";
+		};
+		AD4CAC632965E9AE00653E35 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AD4CAC692965EA8000653E35 /* 1.jpeg */,
+				AD4CAC662965EA8000653E35 /* 2.jpeg */,
+				AD4CAC652965EA8000653E35 /* 3.jpeg */,
+				AD4CAC6A2965EA8100653E35 /* 4.jpeg */,
+				AD4CAC672965EA8000653E35 /* 5.jpg */,
+				AD4CAC6B2965EA8100653E35 /* 6.jpeg */,
+				AD4CAC6C2965EA8100653E35 /* 7.jpeg */,
+				AD4CAC6D2965EA8100653E35 /* 8.jpeg */,
+				AD4CAC642965EA8000653E35 /* 9.jpeg */,
+				AD4CAC682965EA8000653E35 /* 10.jpeg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +166,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD4CAC772965EA8100653E35 /* 8.jpeg in Resources */,
+				AD4CAC742965EA8100653E35 /* 4.jpeg in Resources */,
+				AD4CAC762965EA8100653E35 /* 7.jpeg in Resources */,
+				AD4CAC6F2965EA8100653E35 /* 3.jpeg in Resources */,
 				AD4CAC5C2965E95E00653E35 /* LaunchScreen.storyboard in Resources */,
+				AD4CAC702965EA8100653E35 /* 2.jpeg in Resources */,
 				AD4CAC592965E95E00653E35 /* Assets.xcassets in Resources */,
+				AD4CAC732965EA8100653E35 /* 1.jpeg in Resources */,
+				AD4CAC752965EA8100653E35 /* 6.jpeg in Resources */,
+				AD4CAC722965EA8100653E35 /* 10.jpeg in Resources */,
+				AD4CAC792965F17700653E35 /* README.md in Resources */,
+				AD4CAC712965EA8100653E35 /* 5.jpg in Resources */,
 				AD4CAC572965E95E00653E35 /* Main.storyboard in Resources */,
+				AD4CAC6E2965EA8100653E35 /* 9.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +344,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,8 +370,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
